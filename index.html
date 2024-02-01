@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/responsive/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="burger">
+                <div class="burger-bar">
+                </div>
+                <div class="burger-bar">
+                </div>
+                <div class="burger-bar">
+                </div>
+            </div>
+            <div class="nav-left" >
+                <img src="/resources/logo.png" alt="">
+            </div>
+
+            <div class="nav-center">
+                <ul class="menu-items">
+                    <li class="topicname" id="Cricket" onclick="onmenuclick('Cricket')">Cricket</li>
+                    <li class="topicname" id="Finance" onclick="onmenuclick('Finance')">Finance</li>
+                    <li class="topicname" id="Politics" onclick="onmenuclick('Politics')">Politics</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <input type="text" placeholder="e.g. Science" class="searchinput">
+                <button class="searchbutton" >Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container card-container flex">
+
+        </div>
+    </main>
+    <template class="template-card">
+        <div class="card ">
+            <div class="card-header">
+                <img class="card-image" src="/resources/logo.png" alt="News-Image">
+            </div>
+            <div class="card-contain">
+                <h3 class="card-heading">Heading</h3>
+                <h6 class="card-source">31/01/2024</h6>
+                <p class="news-desc">Hello</p>
+            </div>
+        </div>
+    </template>
+    <script src="main.js"></script>
+</body>
+
+</html>

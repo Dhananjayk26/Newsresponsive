@@ -1,0 +1,96 @@
+@media only screen and (max-width:920px) {
+    .nav {
+        background-color: rgb(233, 35, 17);
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        transition: all 2s ease-out;
+    }
+
+    .nav-left {
+        margin-top: 10px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .nav-left img {
+        justify-self: center;
+        align-self: center;
+        margin: 0;
+       
+    }
+
+    .nav-right {
+        width: 100vw;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .nav-center {
+        width: 100vw;
+        margin: 0;
+        height: auto;
+
+    }
+
+    .menu-items {
+        flex-direction: column;
+        margin: 20px 0 0 0px;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .topicname {
+        margin: 10px 0 0 0;
+        list-style: none;
+        font-size: 1.5rem;
+        color: brown;
+
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    .card-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-count: 1;
+
+    }
+
+    .searchbutton {
+        margin-block: 20px;
+    }
+
+    .searchinput {
+        height: 20px;
+    }
+
+    .burger {
+        width: 7%;
+        height: auto;
+        position:fixed;
+        top: 5px;
+        right: 10px;
+    }
+
+    .burger-bar {
+        border: 2px solid white;
+        margin: 5px;
+    }
+    .respo-hidden{
+        visibility: hidden;
+    }
+    .respo-height{
+        height: 50px;
+    }
+
+}
